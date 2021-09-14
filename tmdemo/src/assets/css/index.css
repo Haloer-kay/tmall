@@ -1,0 +1,102 @@
+  /* 
+
+@规则：
+    @utf 设置样式表的编码
+    @import  引入
+    @media  媒体查询（移动端）
+    @font-face 自定义字体
+    
+*/
+  @font-face {
+    font-family: 'iconfont';
+    src: url('../font/iconfont.ttf?t=1628231483589') format('truetype');
+  }
+  .iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  @import './base.css';
+  @import './login.css';
+  @import "./main.css";
+  @import "./product..css";
+  @import "./register.css";
+  @import "./shpping.css";
+  @import "./top.css";
+  .letter-title {
+  position: relative;
+  display: block;
+   padding-left: 15px;
+    width: 1.5em;
+    top: 26px;
+    color: #dd2727;
+}
+  .letters .active1{
+  border: 1px solid #dbdbdb;
+  border-bottom: none;
+}
+  .bannerIcon1,
+  .bannerIcon2{
+  font-size: 36px;
+  color: #fff;
+ display: block;
+ margin: 0 auto;
+ margin-top: 9px;
+}
+  .bannerIcon1{
+  transform: rotate(180deg);
+}
+  .box1-1 ul li:hover,
+  .box1-2 ul li:hover,
+  .box1-3 ul li:hover,
+  .box1-4 ul li:hover{
+  cursor: pointer;
+  color: #dd2727;
+  text-decoration: underline;
+}
+ .inner:hover{
+   background-color: rgb(179,115,251);
+   display: table-cell;
+   vertical-align: middle;
+   border-radius: 30px;
+   border: 1px solid rgb(68, 36, 104);
+   color: #fff; 
+ }
+ .inner:hover .text{
+   text-decoration: underline;
+ }
+  .baoyou span{
+    position: relative;
+    display: inline-block;
+   
+    padding-right: 15px;
+  }
+  .confirm{
+    position: relative;
+    top: 10px;
+    letter-spacing: 0.1em;  
+    text-indent: 20px;
+    line-height: 20px;
+    color: #dd2727;
+  }
+  .navFont{
+    font-size: 18px;
+  }
+.searchBox a:hover{
+  color: #dd2727;
+}
+.topMessageUl .li{
+  cursor: pointer;
+}
+.l-tip{
+  cursor: pointer;
+}
+.r-input .iconfont{
+  position: relative;
+  left: -25px;
+  color: #999999;
+  font-size: 20px;
+  cursor: pointer;
+}

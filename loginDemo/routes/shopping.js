@@ -1,0 +1,30 @@
+module.exports={
+  shopCar:[
+    {
+      id:'001',
+      num:0,
+      businessLogo:"https://img.alicdn.com/bao/uploaded/O1CN013btJbK1TmEkEcmzMH_!!6000000002424-0-remus.jpg_80x80.jpg",
+      commodityName:'【25日优惠30】华为Mate 40 Pro 4G麒麟曲面华为手机4g手机智能',
+      commodityNet:'网络类型：4G全网通',
+      commodityColor:'机身颜色：釉白色',
+      commodityTao:'套餐类型：官方标配',
+      commodityNei:'存储容量：8+256GB',
+      commodityPrice:'6599',
+      commodityDel1:'移入收藏夹',
+      commodityDel2:'删除'
+    },
+    {
+      id:'002',
+      num:0,
+      businessLogo:"https://img.alicdn.com/bao/uploaded/i3/725677994/O1CN01oIV6Ls28vIqeb5pSi_!!725677994.jpg_80x80.jpg",
+      commodityName:'Apple/苹果MacBook PRO 13.3英寸笔记本电脑M1芯片轻薄便携办公本',
+      commodityNet:'颜色分类：深空灰',
+      commodityColor:'内存容量：8GB',
+      commodityTao:'套餐类型：官方标配',
+      commodityNei:'硬盘容量：256G固态硬盘',
+      commodityPrice:'9999',
+      commodityDel1:'移入收藏夹',
+      commodityDel2:'删除'
+    },
+  ],
+}

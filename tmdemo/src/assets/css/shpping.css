@@ -1,0 +1,174 @@
+.nav_shop{
+    height: 36px;
+    background-color: #f5f5f5;;
+  }
+  .nav_shop li{
+    margin-left: 35px;
+    line-height: 36px;
+  }
+  
+  .logo_search{
+    height: 95px;
+    /* background-color: rgb(145, 139, 139); */
+  }
+  .logo_search span{
+    position: relative;
+      display: block;
+      width: 181px;
+      height: 45px;
+      *height: 43px;
+      /* overflow: hidden; */
+      top: 10px;
+      left: 0;
+  
+  }
+  .shop_search{
+  position: relative;
+  top: -70px;
+  
+  }
+  
+  .shop_search input{
+    text-indent: 76px;
+    width: 425px;
+    height: 35px;
+    border: 3px #FF5500 solid;
+    outline: none;
+  }
+  .shop_search button{
+    width: 93px;
+    height: 41px;
+    background-color: #FF5500;
+    border: 3px #FF5500 solid;
+    color: #fff;
+    font-size: 18px;
+    outline: none;
+  }
+  .shop_search span{
+    width: 68px;
+    height: 36px;
+    text-align: center;
+    line-height: 35px;
+    position: relative;
+    top: 38.5px;
+    left: 2px;
+    background: #f5f5f5;
+      border-radius: 0;
+      border: 0 none;
+      color: #6b6b6b;
+      font-weight: 400;
+      border-right:2px #FF5500 solid ;
+  }
+  .shop_border{
+    /* width: 1190px; */
+    margin: 0 auto;
+    border-top: 3px solid rgb(230,230,230);
+  }
+  
+  .shop_footer{
+  
+    margin-top: 30px;
+    height: 50px;
+    /* background-color: green; */
+    background-color: rgb(229,229,229);
+  }
+  .shop_footer a{
+    line-height: 50px;
+    margin-left: 30px;
+    float: left;
+  }
+  .shop_price p{
+    float: left;
+    line-height: 50px;
+    margin-left: 50px;
+    margin-right: 10px;
+  }
+  .shop_price p:nth-child(3){
+    color: #ff4400;
+    font-size: 22px;
+    font-weight: 700;
+     margin-left: 0px;
+  }
+  .shop_price button{
+    font-size: 20px;
+    color: aliceblue;
+    height: 50px;
+    width: 120px;
+    background-color: #ff4400;
+    border: none;
+    outline: none;
+  }
+  .shpp_box{
+    padding-top: 25px;
+    height: 105px;
+    margin-top: 50px;
+    border: 1px #cccccc solid;
+    /* background-color: orange; */
+  }
+  .shpp_box_img
+  {
+    /* padding-top: 25px; */
+    width: 310px;
+    height: 105px;
+    /* background-color: green; */
+  }
+  .shpp_box_img1 {
+  
+    overflow: hidden;
+    width: 80px;
+    margin-left: 30px;
+      height: 80px;
+      border: 1px solid #eee;
+      float: left;
+  }
+  .shpp_box_img2{
+    margin-left: 5px;
+    width: 186px;
+  }
+  .shpp_box_pro{
+    width: 140px;
+    height: 100%;
+    margin-left: 90px;
+    /* background-color: red; */
+  }
+  .shpp_price{
+    width: 350px;
+    height: 100%;
+    /* background-color: pink; */
+  }
+  .shpp_price p,.shpp_price cpn{
+    float: right;
+  }
+  .shpp_price{
+    margin-left: 120px;
+  }
+  .shpp_price1,.shpp_price2{
+    font-weight: 700;
+    margin-left: 35px;
+    margin-right: 35px;
+  } 
+  .shpp_del{
+    margin-right: 40px;
+  }
+  .shop_btn button{
+      width: 20px;
+      height: 20px;
+      background-color: rgb(255,240,231);
+      border: none;
+      outline: none;
+      margin-right: 10px;
+      margin-left: 10px;
+  
+  }
+  .shop_btn input{
+    border-color: #efbba9;
+      color: #6c6c6c;
+      width: 39px;
+      height: 15px;
+      line-height: 15px;
+      border: 1px solid #efbba9;
+      color: #343434;
+      text-align: center;
+      padding: 4px 0;
+      outline: none;
+  }
